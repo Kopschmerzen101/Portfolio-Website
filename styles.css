@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about {
+  background: #f4f4f4;
+}
+
+#skills .skill {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.progress {
+  background: #00bcd4;
+  height: 100%;
+}
+
+#projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact form {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+#contact form input,
+#contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact form button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#contact form button:hover {
+  background: #0097a7;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
